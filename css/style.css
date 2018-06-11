@@ -69,10 +69,10 @@ body {
 }
 
 ::-moz-selection {
-	color:#333;
+	background: #d3b433;
 }
 ::selection {
-	color:#333;
+	background: #d3b433;
 }
 
 /* scroll to top */
@@ -190,7 +190,7 @@ a {
 
 a:hover, a:active {
 	text-decoration: underline;
-	color: #1bac91;
+	color: #d3b433;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
@@ -356,8 +356,13 @@ ul#menu-main > li > a:focus {
 }
 
 header .logo {
+	margin-bottom:10px;
+	height: 150px;
+	width: 150px;
 	text-align:center;
-	margin-bottom:30px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -489,7 +494,10 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background-image: url("../img/squishy_bg2.png") !important;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: cover;
 }
 
 .spacer.green,.section.green h4 {
@@ -861,7 +869,7 @@ section#about ul {
 
 section#about a {
 	font-weight: 500;
-	color: #1bac91;
+	color: #d3b433;
 }
 
 section#about h5 {
@@ -895,6 +903,16 @@ section#about h1 {
 .team-thumb {
 	margin-top: 26px;
 	text-align:center;
+}
+
+.team-circle {
+	border-radius: 50%;
+	text-align:center;
+}
+
+.interns {
+	padding-top: 70px;
+	padding-bottom: 40px;
 }
 
 /* (spacer) latest tweet */
@@ -1508,8 +1526,8 @@ i.icon-white {
 .btn-success {
   color: #ffffff;
   text-shadow: none;
-  background-color: #1bac91;
-  *background-color: #1bac91;
+  background-color: #d3b433;
+  *background-color: #d3b433;
   background-image: none;
   border-color: none;
   filter:none;

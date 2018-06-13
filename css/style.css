@@ -463,7 +463,7 @@ hr {
 
 
 section.section {
-	padding: 80px 0 60px;
+	padding: 60px 0 50px;
 }
 section.section h4 {
 	text-align: center;
@@ -540,6 +540,22 @@ section.spacer blockquote cite {
 
 #works h4 {
 	margin-bottom:20px;
+}
+
+#grant h1 {
+	line-height: normal;
+	margin-bottom: .5rem;
+}
+
+#grant h6 {
+	margin-top: 0;
+	font-weight: 700;
+	text-align: center;
+}
+
+#grant p {
+	padding: 0;
+	text-align: left;
 }
 
 #portfolio {
@@ -782,7 +798,11 @@ section#services.section.orange .service-box:hover {
 
 /* === section blog === */
 
-section#blog {
+section.patents {
+	padding-bottom: 0;
+}
+
+.blog {
 	background: #f2f2f2;
 }
 
@@ -845,40 +865,46 @@ section#blog {
 
 
 
-/* === section about === */
+/* === class about === */
 
 
+.header_links {
+	padding-top: 3rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 
-section#about {
+
+.about {
 	background:white;
 }
 
 
-section#about p {
+.about p {
 	color: black;
 	padding-left: 15em;
 	padding-right: 15em;
 	font-family: 'Playfair Display', serif;
 }
 
-section#about ul {
+.about ul {
 	padding-left: 20em;
 	padding-right: 15em;
 	font-family: 'Playfair Display', serif;
 }
 
-section#about a {
+.about a {
 	font-weight: 500;
 	color: #d3b433;
 }
 
-section#about h5 {
+.about h5 {
 	line-height: 1.6em;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 }
 
-section#about h6 {
+.about h6 {
 	line-height: 1.6em;
 	text-align: left;
 	font-family: 'Playfair Display', serif;
@@ -886,9 +912,12 @@ section#about h6 {
 	padding-right: 50px;
 }
 
-section#about h1 {
+.about h1 {
 	line-height: 2em;
 }
+
+
+
 
 .people {
 	text-align:center;
@@ -1133,7 +1162,7 @@ footer ul.social-networks li a i.icon-envelope:hover {
 	color: #fff;
 }
 
-footer ul.social-networks li a i.icon-facebook:hover {
+footer ul.social-networks li a i.icon-map-marker:hover {
 	background: #5ad2eb;
 	color: #fff;
 }

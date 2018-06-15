@@ -1203,6 +1203,35 @@ footer ul.social-networks li a i.icon-youtube:hover {
 	color: #fff;
 }
 
+.fa-facebook {
+	padding: 1rem;
+	padding-left: 1.3rem;
+	padding-right: 1.3rem;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+	padding: 1rem;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+	padding: 1rem;
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+	padding: 1rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+  background: #007bb5;
+  color: white;
+}
+
+
 
 
 

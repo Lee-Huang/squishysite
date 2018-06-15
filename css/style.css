@@ -813,6 +813,25 @@ section.patents {
 
 }
 
+.qual {
+	padding-left: 5rem;
+	text-align: left;
+}
+
+.qual ul {
+	padding: 0;
+	text-align: left;
+	font-size: 1rem;
+}
+
+.readmore {
+	color: white;
+	background-color: #d3b433;
+	font-size: 1.5rem;
+	padding: 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
 .home-post:hover {
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
@@ -904,6 +923,13 @@ section.patents {
 	line-height: 1.6em;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
+}
+
+.about h7 {
+	line-height: 1.3em;
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2rem;
 }
 
 .about h6 {

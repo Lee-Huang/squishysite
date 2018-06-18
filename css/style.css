@@ -908,6 +908,8 @@ section.patents {
 	font-family: 'Playfair Display', serif;
 }
 
+
+
 .about ul {
 	padding-left: 20em;
 	padding-right: 15em;
@@ -926,10 +928,9 @@ section.patents {
 }
 
 .about h7 {
-	line-height: 1.3em;
+	line-height: 1.5em;
 	text-align: left;
 	font-family: 'Playfair Display', serif;
-	font-size: 1.2rem;
 }
 
 .about h6 {
@@ -945,7 +946,35 @@ section.patents {
 }
 
 
+@media only screen and (max-width: 960px) {
+	.about ul {
+		padding-left: 10em;
+		padding-right: 5em;
+	}
+	h6.pagesubtitle {
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+	.about p {
+		padding-left: 7em;
+		padding-right: 7em;
+	}
+}
 
+@media only screen and (max-width: 600px) {
+	.about ul {
+		padding-left: 5em;
+		padding-right: 3em;
+	}
+	h6.pagesubtitle {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+	.about p {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+}
 
 .people {
 	text-align:center;

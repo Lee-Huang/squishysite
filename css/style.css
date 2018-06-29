@@ -127,7 +127,6 @@ a.scrollup i:hover {
 	margin-bottom:0;
 }
 
-
 /*---------- forms ----------*/
 
 input[type=text], input[type=submit], textarea {
@@ -831,6 +830,8 @@ section.patents {
 	padding: 1rem;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
 
 .home-post:hover {
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
@@ -1837,6 +1838,11 @@ i.icon-white {
 		width: 50%;
 	}
 
+}
+
+.caption {
+	text-align: center;
+	color: white;
 }
 
     /* Smartphones (portrait and landscape) ----------- */
